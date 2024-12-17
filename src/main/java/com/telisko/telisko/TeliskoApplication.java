@@ -11,6 +11,7 @@ public class TeliskoApplication {
 		ApplicationContext context = SpringApplication.run(TeliskoApplication.class, args);
 
 		Dev obj = context.getBean(Dev.class);
+		obj.build();
 
 	}
 }
