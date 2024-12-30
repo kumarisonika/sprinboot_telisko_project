@@ -10,8 +10,7 @@ public class TeliskoApplication {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(TeliskoApplication.class, args);
 
-		Dev obj = context.getBean(Dev.class);
-		obj.build();
+
 
 	}
 }
